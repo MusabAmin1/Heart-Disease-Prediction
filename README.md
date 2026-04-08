@@ -34,7 +34,8 @@ Algorithm: Stacked Logistic Regression (XGBoost + SVC + Logistic Regression)
 Final Accuracy: ~87.5% on test data
 Confusion Matrix:
 [[ 61  11]
- [ 12 100]]
+[ 12 100]]
+
 Key Features Used:
 Age, RestingBP, Cholesterol, MaxHR, Oldpeak
 ST_Slope_Up, ST_Slope_Flat, isExerciseAngina
