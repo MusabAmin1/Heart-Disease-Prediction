@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import joblib
-from sklearn.preprocessing import StandardScaler
 
 # Load model and scaler
 model = joblib.load('heart_stacked_lr_model.pkl')
