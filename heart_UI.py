@@ -9,7 +9,6 @@ scaler = joblib.load('heart_scale.pkl')
 st.set_page_config(page_title="Heart Disease Predictor", layout="centered")
 
 st.title("❤ Heart Disease Prediction")
-st.markdown("Clinical-style input form")
 
 # ================= UI =================
 Age = st.number_input("Age", min_value=1, max_value=120, value=30)
